@@ -21,7 +21,6 @@
         </style>
         
         <script src="https://code.jquery.com/jquery.js"></script>
-        
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
 
@@ -41,14 +40,14 @@
             </div>
             
             <div class="input-group" style="width:300px;text-align:center;margin:0 auto;" id="nickWrap">
-                <input id="nickname" class="form-control input-lg" type="text" placeholder="Enter your username">
+                <input id="nickname" class="form-control input-lg" type="text" placeholder="Introduce tu username">
                 <span class="input-group-btn">
                     <button class="btn btn-lg btn-primary" type="submit" id="setNick">OK</button>
                 </span>
             </div>
             <div class="alert fade in alert-danger alert-dismissable" data-dismiss="alert" id="login-error" style="display:none;">
                 <button type="button" class="close" id="closeAlert">×</button>
-                That username is already taken. Try again.
+                Este nombre de usuario ya existe. Prueba con otro.
             </div>
             
             <div id="contentWrap" class="row" style="height: 70%;">
@@ -63,7 +62,7 @@
                         <form id="send-message" class="input-group" style="text-align:center;margin:0 auto;">
                         <input id="message" class="form-control input-lg" type="text">
                         <span class="input-group-btn">
-                            <button class="btn btn-lg btn-primary" type="submit">Send</button>
+                            <button class="btn btn-lg btn-primary" type="submit">Enviar</button>
                         </span>
                         </form>
                     </div>
@@ -79,7 +78,7 @@
                 <div class="col-md-2">
                     <div class="panel panel-info">
                         <div class="panel-heading">
-                            Users
+                            Usuarios
                         </div>
                         <div id="users" class="panel-body"></div>
                     </div>
